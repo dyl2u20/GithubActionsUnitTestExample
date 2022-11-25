@@ -62,15 +62,22 @@ Note - the given XML text above can be copy and pasted, meaning this step by ste
 1. First select the pom.xml file within the given maven project repository.
 2. Enter the Alt+Insert keys to open the generate context menu as seen in the image below. If you are using a laptop that does not have one of these keys, right click anywhere within the pom.xml file and select "Generate".
 
-![generateContextMenu](https://github.com/L00163199/GithubActionsQuickStart/blob/main/Pipeline/unitTests/images/generateMenu.png)<br>
+![generateContextMenu](https://github.com/L00163199/GithubActionsQuickStart/blob/main/Pipeline/unitTests/images/generateMenu.png)
+<br>Figure 1 - Generate context menu
 
 3. Once the context menu is open, select "add dependency". The dependencies window will now be available to you. From here, enter text as indicated in the below images next to the search icon to search for a given dependency package.
 
-![addDependency](https://github.com/L00163199/GithubActionsQuickStart/blob/main/Pipeline/unitTests/images/addDependencyMenu.png) <br>
+![addDependency](https://github.com/L00163199/GithubActionsQuickStart/blob/main/Pipeline/unitTests/images/addDependencyMenu.png)
+<br>Figure 2 - Add dependency option
 
-![mavenSurefirePlugin](https://github.com/L00163199/GithubActionsQuickStart/blob/main/Pipeline/unitTests/images/mavenSurefirePlugin.png) <br>
-![junitJupiterEngine](https://github.com/L00163199/GithubActionsQuickStart/blob/main/Pipeline/unitTests/images/jupiterEngineDependency.png) <br>
+![mavenSurefirePlugin](https://github.com/L00163199/GithubActionsQuickStart/blob/main/Pipeline/unitTests/images/mavenSurefirePlugin.png)
+<br>Figure 3 - Maven surefire plugin dependency
+
+![junitJupiterEngine](https://github.com/L00163199/GithubActionsQuickStart/blob/main/Pipeline/unitTests/images/jupiterEngineDependency.png)
+<br>Figure 4 - JUnit Jupiter Engine Dependency
+
 ![junitJupiterTestDependency](https://github.com/L00163199/GithubActionsQuickStart/blob/main/Pipeline/unitTests/images/JUnitDependencyTestOption.png)
+<br>Figure 5 - JUnit Jupiter Test Dependency
 
 ## Github actions tab
 
@@ -111,14 +118,20 @@ class AdditionTest {
 In the example tester class above, the assertion is that the result should give 10, which should not result in any failures. This is seen in the image below.
 
 ![successfulUnitTest](https://github.com/L00163199/GithubActionsQuickStart/blob/main/Pipeline/unitTests/images/successfulUnitTest.png)
+<br>Figure 6 - Successful unit test result (Github actions tab)
 
 ### Unsuccessful unit test
 
 To make sure the automated tests are working correctly, an example was used where the expected returned value was 15. This is seen in the image below where the output lets us know that the test has failed and provides details on which test it was.
 
-![unsuccessfulUnitTest](https://github.com/L00163199/GithubActionsQuickStart/blob/main/Pipeline/unitTests/images/unsuccessfulUnitTest.png) <br>
-![unsuccessfulUnitTestContd](https://github.com/L00163199/GithubActionsQuickStart/blob/main/Pipeline/unitTests/images/unsuccessfulUnitTestContd1.png) <br>
+![unsuccessfulUnitTest](https://github.com/L00163199/GithubActionsQuickStart/blob/main/Pipeline/unitTests/images/unsuccessfulUnitTest.png)
+<br>Figure 7 - Failed unit test result 
+
+![unsuccessfulUnitTestContd](https://github.com/L00163199/GithubActionsQuickStart/blob/main/Pipeline/unitTests/images/unsuccessfulUnitTestContd1.png)
+<br>Figure 8 - Failed unit test result (contd.)
+
 ![unsuccessfulUnitTestContd2](https://github.com/L00163199/GithubActionsQuickStart/blob/main/Pipeline/unitTests/images/unsuccessfulUnitTestContd2.png)
+<br>Figure 9 - Failed unit test result (contd.)
 
 ## Useful links
 JUnit 5 dependency: https://maven.apache.org/surefire/maven-surefire-plugin/examples/junit-platform.html <br>
