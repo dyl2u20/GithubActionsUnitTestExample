@@ -62,13 +62,14 @@ Note - the given XML text above can be copy and pasted, meaning this step by ste
 1. First select the pom.xml file within the given maven project repository.
 2. Enter the Alt+Insert keys to open the generate context menu as seen in the image below. If you are using a laptop that does not have one of these keys, right click anywhere within the pom.xml file and select "Generate".
 
-![generateContextMenu](https://github.com/L00163199/GithubActionsQuickStart/blob/main/Pipeline/unitTests/images/generateMenu.png)
+![generateContextMenu](https://github.com/L00163199/GithubActionsQuickStart/blob/main/Pipeline/unitTests/images/generateMenu.png)<br>
 
 3. Once the context menu is open, select "add dependency". The dependencies window will now be available to you. From here, enter text as indicated in the below images next to the search icon to search for a given dependency package.
 
-![addDependency](https://github.com/L00163199/GithubActionsQuickStart/blob/main/Pipeline/unitTests/images/addDependencyMenu.png)
-![mavenSurefirePlugin](https://github.com/L00163199/GithubActionsQuickStart/blob/main/Pipeline/unitTests/images/mavenSurefirePlugin.png)
-![junitJupiterEngine](https://github.com/L00163199/GithubActionsQuickStart/blob/main/Pipeline/unitTests/images/jupiterEngineDependency.png)
+![addDependency](https://github.com/L00163199/GithubActionsQuickStart/blob/main/Pipeline/unitTests/images/addDependencyMenu.png) <br>
+
+![mavenSurefirePlugin](https://github.com/L00163199/GithubActionsQuickStart/blob/main/Pipeline/unitTests/images/mavenSurefirePlugin.png) <br>
+![junitJupiterEngine](https://github.com/L00163199/GithubActionsQuickStart/blob/main/Pipeline/unitTests/images/jupiterEngineDependency.png) <br>
 ![junitJupiterTestDependency](https://github.com/L00163199/GithubActionsQuickStart/blob/main/Pipeline/unitTests/images/JUnitDependencyTestOption.png)
 
 ## Github actions tab
@@ -115,8 +116,8 @@ In the example tester class above, the assertion is that the result should give 
 
 To make sure the automated tests are working correctly, an example was used where the expected returned value was 15. This is seen in the image below where the output lets us know that the test has failed and provides details on which test it was.
 
-![unsuccessfulUnitTest](https://github.com/L00163199/GithubActionsQuickStart/blob/main/Pipeline/unitTests/images/unsuccessfulUnitTest.png)
-![unsuccessfulUnitTestContd](https://github.com/L00163199/GithubActionsQuickStart/blob/main/Pipeline/unitTests/images/unsuccessfulUnitTestContd1.png)
+![unsuccessfulUnitTest](https://github.com/L00163199/GithubActionsQuickStart/blob/main/Pipeline/unitTests/images/unsuccessfulUnitTest.png) <br>
+![unsuccessfulUnitTestContd](https://github.com/L00163199/GithubActionsQuickStart/blob/main/Pipeline/unitTests/images/unsuccessfulUnitTestContd1.png) <br>
 ![unsuccessfulUnitTestContd2](https://github.com/L00163199/GithubActionsQuickStart/blob/main/Pipeline/unitTests/images/unsuccessfulUnitTestContd2.png)
 
 ## Useful links
