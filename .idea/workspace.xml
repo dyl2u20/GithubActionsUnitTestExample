@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="43d820a9-b3a5-4ee4-8e99-14b429caaa29" name="Changes" comment="restructure pom.xml">
-      <change beforePath="$PROJECT_DIR$/src/test/java/ie/atu/addition/AdditionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ie/atu/addition/AdditionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ie/atu/addition/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ie/atu/addition/UserTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +53,7 @@
       <recent name="ie.atu.addition" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ie.atu.addition" />
       <recent name="com.driver" />
       <recent name="com.driver.test" />
     </key>
@@ -85,7 +88,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670571115017</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="restructure pom.xml">
+      <created>1670571227821</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1670571227821</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
