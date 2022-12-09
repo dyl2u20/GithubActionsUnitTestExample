@@ -13,7 +13,7 @@ class UserTest {
         User newUser = new User("Adrian");
 
         newUser.setUsername("Ciara");
-        assertEquals("Ciara", newUser.getUsername(), "Username should be Ciara");
+        assertEquals("John", newUser.getUsername(), "Username should be Ciara");
     }
 
 }
