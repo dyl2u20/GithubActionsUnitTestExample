@@ -23,5 +23,9 @@ jobs:
     - name: Build with Maven
       run: mvn -B package --file pom.xml
       
+      # Automated Junit testing, must have Junit dependency in pom file
+    - name: Run tests with Maven
+      run: mvn -B test --file pom.xml
+      
     - name: List current directory
       run: ls -a
