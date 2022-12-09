@@ -11,6 +11,6 @@ class AdditionTest {
     @DisplayName("Addition test")
     void addsTwoNumbers() {
         Addition add = new Addition();
-        assertEquals(8, add.addNumber(5, 5), "5 + 5 should give 10");
+        assertEquals(10, add.addNumber(5, 5), "5 + 5 should give 10");
     }
 }
