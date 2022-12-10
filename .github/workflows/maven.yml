@@ -22,7 +22,7 @@ jobs:
       
       # Automated Junit testing, must have Junit dependency in pom file
     - name: Run tests with Maven
-      run: mvn -B test --file pom.xml
+      run: mvn -B test --file Code/pom.xml
       
     - name: List current directory
       run: ls -a
