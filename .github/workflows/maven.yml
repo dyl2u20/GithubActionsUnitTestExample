@@ -18,7 +18,7 @@ jobs:
       if: always()
       uses: runforesight/foresight-workflow-kit-action@v1
       with:
-        api_key: ${{ secrets.FORESIGHT_API_KEY }}
+        api_key: 42974a4f-ac73-4618-8d94-6759a907a98e
         
     - uses: actions/checkout@v3
     - name: Set up JDK 11
@@ -36,7 +36,8 @@ jobs:
       uses: runforesight/foresight-test-kit-action@v1
       with:
         api_key: ${{ secrets.FORESIGHT_API_KEY }}
-        test_framework: junit
+        test_format: JUNIT
+        test_framework: JUNIT
         test_path: "**/target/surefire-reports/**"
         
       ##
