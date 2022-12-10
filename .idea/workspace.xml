@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="43d820a9-b3a5-4ee4-8e99-14b429caaa29" name="Changes" comment="restructure pom.xml">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code/src/main/test/UserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Code/src/test/UserTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +26,13 @@
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
   </component>
   <component name="ProjectId" id="2E3U6JgpsdRXyThluh4SABnJc7k" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -47,8 +55,15 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Dyl\Videos\GithubActionsQuickStart" />
+    </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Dyl\Videos\GithubActionsQuickStart\Code\src" />
+      <recent name="C:\Users\Dyl\Videos\GithubActionsQuickStart\Code\src\main\test\java" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="ie.atu.addition" />
@@ -117,7 +132,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670574558084</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="restructure pom.xml">
+      <created>1670579305763</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1670579305763</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
